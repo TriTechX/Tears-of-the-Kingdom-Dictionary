@@ -26,5 +26,7 @@ efficiency = float(efficiency)
 For weapons:
 ```py
 round(int(trueAttack)*int(durability))/12
-#Note: "trueAttack is the actual attack damage of the weapon. Every weapon in Tears of the Kingdom has a hidden attack modifier for spear or two-handed weapons.
+#Note: "trueAttack is the actual attack damage of the weapon.
+Every weapon in Tears of the Kingdom has a hidden attack modifier for spear or two-handed weapons.
+```
 
