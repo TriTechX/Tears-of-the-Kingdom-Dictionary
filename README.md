@@ -27,6 +27,10 @@ For weapons:
 ```py
 round(int(trueAttack)*int(durability))/12
 #Note: "trueAttack is the actual attack damage of the weapon.
-Every weapon in Tears of the Kingdom has a hidden attack modifier for spear or two-handed weapons.
+#Every weapon in Tears of the Kingdom has a hidden attack modifier for spear or two-handed weapons.
+#For spears: true damage is shown damage is divided by 1.33
+#For two-handed weapons: true damage is shown damage is divided by 0.95
+#DISCLAIMER: rounding on some of the weapons for their trueAttack value may be incorrect, as the game uses
+#... a mixture of floor and ceiling rounding depending on the weapon.
 ```
 
