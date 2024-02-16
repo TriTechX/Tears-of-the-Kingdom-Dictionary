@@ -8,12 +8,12 @@ it is from an unknown source. I can guarantee you that the program will not affe
 When the blue window comes up on running the program, click "More Details", and then "Run Anyway".
 
 ## Commands
-Type the name of any weapon, bow, shield, or armour set into the terminal to see specific details.
-```W``` - Prints all pristine weapon names, tiers, and efficiency numbers.
-```W-``` - Prints all weapon names (including decayed, normal, and legendary), tiers, and efficiency numbers.
-```S``` - Prints all shield names, tiers, and efficiency numbers. The value for the Hylian Shield is absurdly high (4000.0).
-```B``` - Prints all bow names, tiers, and will soon include efficiency numbers. The multipliers for multishot bows will be included in the equation.
-```A``` - Prints all armour sets. These are not tiered.
+Type the name of any weapon, bow, shield, or armour set into the terminal to see specific details.\
+```W``` - Prints all pristine weapon names, tiers, and efficiency numbers.\
+```W-``` - Prints all weapon names (including decayed, normal, and legendary), tiers, and efficiency numbers.\
+```S``` - Prints all shield names, tiers, and efficiency numbers. The value for the Hylian Shield is absurdly high (4000.0).\
+```B``` - Prints all bow names, tiers, and will soon include efficiency numbers. The multipliers for multishot bows will be included in the equation.\
+```A``` - Prints all armour sets. These are not tiered.\
 
 Equations for efficiency numbers are as follows;
 
