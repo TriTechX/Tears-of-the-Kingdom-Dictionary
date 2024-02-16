@@ -9,3 +9,22 @@ When the blue window comes up on running the program, click "More Details", and 
 
 ## Commands
 Type the name of any weapon, bow, shield, or armour set into the terminal to see specific details.
+```W``` - Prints all pristine weapon names, tiers, and efficiency numbers.
+```W-``` - Prints all weapon names (including decayed, normal, and legendary), tiers, and efficiency numbers.
+```S``` - Prints all shield names, tiers, and efficiency numbers. The value for the Hylian Shield is absurdly high (4000.0).
+```B``` - Prints all bow names, tiers, and will soon include efficiency numbers. The multipliers for multishot bows will be included in the equation.
+```A``` - Prints all armour sets. These are not tiered.
+
+Equations for efficiency numbers are as follows;
+
+For shields: 
+```py
+round((defense*durability)/18, 1)
+efficiency = float(efficiency)
+```
+
+For weapons:
+```py
+round(int(trueAttack)*int(durability))/12
+#Note: "trueAttack is the actual attack damage of the weapon. Every weapon in Tears of the Kingdom has a hidden attack modifier for spear or two-handed weapons.
+
