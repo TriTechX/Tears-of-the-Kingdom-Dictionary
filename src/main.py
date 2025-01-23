@@ -1,9 +1,6 @@
 try:
     import os
-    from DATA import bows
-    from DATA import weapons
-    from DATA import shields
-    from DATA import armour
+    from DATA import bows,shields,weapons,armour
     import subprocess
     subprocess.check_output("pip install colorama", shell=True)
     import colorama
